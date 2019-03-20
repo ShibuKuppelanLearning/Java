@@ -1,20 +1,11 @@
 package com.learning.java8;
 
-import static org.apache.commons.lang3.StringUtils.equalsIgnoreCase;
-
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 /**
  * Hello world!
  *
  */
 public class StreamsApp {
-	public static void main(String[] args) {
+	public static void main(String[] args) {/*
 		List<PurchaseOrder> purchaseOrders = PurchaseOrderUtils.createPurchaseOrders();
 		List<List<Item>> items = purchaseOrders.stream().filter(order -> equalsIgnoreCase("Company-XYZ", order.getOrderedBy()))
 				.map(order -> order.getItems()).distinct().collect(Collectors.toList());
@@ -32,5 +23,5 @@ public class StreamsApp {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
+	*/}
 }
